@@ -53,3 +53,5 @@ spec:
               value: '5.5'
           ports:
             - containerPort: 8080
+      imagePullSecrets:
+        - name: docker-hub-key
