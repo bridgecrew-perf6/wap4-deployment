@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: axonetiq/user-service:latest
+          image: ghcr.io/samuelhuebner/user-service:latest
           env:
             - name: DB_HOST
               value: 'localhost'
